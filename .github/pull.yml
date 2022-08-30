@@ -1,5 +1,5 @@
 version: "1"
 rules:
   - base: dev
-    upstream: cinnyapp:dev
+    upstream: Airyzz:dev
     mergeMethod: rebase
