@@ -5,7 +5,7 @@ import resources from '../../public/locales';
 
 i18n
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
-  .use(LanguageDetector)
+  //.use(LanguageDetector)
   // pass the i18n instance to react-i18next.
   .use(initReactI18next)
   // init i18next
@@ -13,7 +13,8 @@ i18n
   .init({
     resources,
     debug: true,
-    fallbackLng: 'en',
+    lng: 'de',
+    fallbackLng: 'de',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
